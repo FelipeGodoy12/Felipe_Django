@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  width: 100%;
+  color:  #1b1b1b;
+  background: rgb(243, 243, 243);
+  font-family: 'Source Serif 4', sans-serif;
+}
+
+
+Header {
+padding: 1em;
+background-color: #3d3b39;
+font-size: 20px;
+text-align:center ;
+color: white;
+font-family: 'Source Serif 4', sans-serif;
+font-style: italic
+}
+
+
+h2 {
+  text-align: left; 
+  text-transform: none;
+  text-size-adjust: auto;
+  color: #000000;
+  font-family: 'Source Serif 4', sans-serif;
+}
+
+.Container{
+  width: 100%;
+  color:  #0e0e0e;
+  font-family: 'Source Serif 4', sans-serif;
+  font-weight: 300;
+}
+
+a { 
+  text-decoration: none;
+}
+
+p{
+  font-family: 'Source Serif 4', sans-serif;
+  color:black;
+}
+
+
+.Catalogo{
+text-align: center;
+}
+
+.nosotros{
+font-size: 15px;
+font-family: 'Source Serif 4', sans-serif;
+}
+
+hr {
+  height: 2px;
+  background-color: #ff9100
+}
+
+
+footer{
+  font: 'Source Serif 4', sans-serif;
+
+}
+
+/* @media screen and (max-width: 400px) {
+  body {
+    font-size: 0.8em;
+  }
+  .nosotros{
+    font-size: 0.8em;
+  }
+  p{
+    font-size: 0.8em;
+  }
+  table {
+    display: block;
+    overflow-x: auto;
+    } /*Con esto se pone una barra de scroll*/
+    /* nav {
+    flex-direction: column;
+    display: inline-block;
+    }
+    
+    .nav-enlace {
+      margin: 5px 0;
+    }
+
+    input{
+        width: 250px;
+    }
+
+    textarea{
+      height: 20px;
+      width: 250px;
+    }
+    label{
+      text-align: left;
+    }
+    h2{
+      width: 100% ;
+    }
+    ul#contacto-ul{
+      width: 250px;
+    }
+    .li-contacto{
+      width: 250px;
+    }
+    form{
+    max-width: 290px;
+    margin: 0px;
+    display: flex;
+    padding: 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+}
+
+@media screen and (max-width: 900px) {
+  table {
+    display: block;
+    overflow-x: auto;
+    } /*Con esto se pone una barra de scroll
+    nav {
+    flex-direction: column;
+    display: inline-block;
+    }
+    .nav-enlace {
+      margin: 5px 0;
+    }
+    form{
+      margin: 0 auto;
+      width: 400px;
+      padding: 1em;
+      border: 1px solid #ccc;
+      border-radius: 1%;
+    }
+    textarea{
+      height: 80%;
+    }
+    label{
+      text-align: start;
+      align-content: center;
+    }
+    h2{
+      width: 100% ;
+    }
+    ul{
+      display:block;
+      justify-content: center;
+    }
+  } */

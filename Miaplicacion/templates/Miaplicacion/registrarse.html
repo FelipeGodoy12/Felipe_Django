@@ -4,14 +4,15 @@
 
 <form action="" method="post">
 
-
-    <h1>Registro Proveedores</h1>
+    <h2>Registro de usuario</h2>
 
     {% csrf_token %}
     {{form.as_p}}
 
     <button type="submit">Registrar</button>
 
+
 </form>
 
-{% endblock content %}
+
+{% endblock %}

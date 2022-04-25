@@ -1,23 +1,50 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Proyecto levantado por FELIPE GODOY!</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-  </head>
-  <body>
-  <section class="section">
-    <div class="container">
-      <h1 class="title">
-        Proyecto levantado por FELIPE GODOY!
+{% extends 'template_base.html' %}
+
+{% block content %}
+
         <br>
-        Hello World
-      </h1>
-      <p class="subtitle">
-        My first website with <strong>Bulma</strong>!
-      </p>
-    </div>
-  </section>
-  </body>
-</html>
+        <h2 class="Catalogo">La música es ahora...</h2>
+        <br>
+
+
+
+          
+          <div class="btn-group-responsive" role="group" aria-label="Basic radio toggle button group">
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off">
+            <label class="btn btn-outline-primary" for="btnradio1">Guitarras y cuerdas</label>
+          
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+            <label class="btn btn-outline-primary" for="btnradio2">Equipos de música</label>
+          
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+            <label class="btn btn-outline-primary" for="btnradio3">DJ y Audio digital</label>
+
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+            <label class="btn btn-outline-primary" for="btnradio3">Equipos Home Estudio</label>
+          </div>
+          <br>
+
+
+
+
+
+
+        <div class="card">
+            <img src="https://concepto.de/wp-content/uploads/2020/03/musica-e1584123209397.jpg" class="card-img-top" alt="...">
+          
+            <div class="card-body">
+              <h5 class="card-title">Guitarras</h5>
+              <p class="card-text">Variedad de guitarras, ya sea electrícas, acústicas, folk, nylon, 12 cuerdas, etc.</p>
+              <a href="#" class="btn btn-primary">Ir</a>
+            </div>
+          </div>
+          
+          </div>
+
+          <hr>
+            <h2 class="nosotros">La música es algo importante en la vida diaria de las personas, por lo debes conocer todos los productos que tenemos.
+            </h2>
+        <br>
+        <br>
+
+{% endblock content %}
