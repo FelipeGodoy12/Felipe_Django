@@ -20,3 +20,13 @@ class Provedore(models.Model):
 
     def __str__(self):
         return self.nombre_proveedor
+
+class Musico(models.Model):
+    nombre_musico = models.CharField(max_length=60,verbose_name='Ingrese nombre del musico')
+    categoria = models.CharField(max_length=60,verbose_name='Ingrese categoria del musico')
+    direccion = models.CharField(max_length=60,verbose_name='Ingrese la direccion del musico')
+    telefono_musico = models.IntegerField(verbose_name='Ingrese Telefono del musico')
+    email_musico = models.EmailField(verbose_name="Ingrese Correo del musico")
+
+    def __str__(self):
+        return self.nombre_musico

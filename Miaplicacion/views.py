@@ -4,8 +4,8 @@ from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.decorators import login_required
 
 
-from .forms import proveedorform, UserRegistrerForm
-from .models import Provedore
+from .forms import proveedorform, UserRegistrerForm, musicoform
+from .models import Provedore, Musico
 
 # Create your views here.
 def index(request):
@@ -36,6 +36,25 @@ def formulario(request):
 
     return render(request, 'Miaplicacion/formulario.html',{'form': form})
 
+def formulariomusico(request):
+
+    form = musicoform()
+    if request.method == 'POST':
+        form = musicoform(request.POST)
+        if form.is_valid():
+            proveedor = Musico()
+            proveedor.nombre_musico = form.data['nombre_musico']
+            proveedor.categoria = form.data['categoria']
+            proveedor.direccion = form.data['direccion']
+            proveedor.telefono_musico = form.data['telefono_musico']
+            proveedor.email_musico = form.data['email_musico']
+            proveedor.save()
+            messages.success(request, f'El Músico {proveedor.nombre_musico} a sido Registrado Correctamente')
+        else:
+            print('invalido')
+
+    return render(request, 'Miaplicacion/formulariomusico.html',{'form': form})
+
 
 def registrar(request):
     if request.method == 'POST':
@@ -55,4 +74,5 @@ def registrar(request):
 
 @login_required
 def ingresado(request):
+    messages.success(request, f'El Usuario {username} a sido Registrado Correctamente')
     return render(request, 'Miaplicacion/ingresado.html')

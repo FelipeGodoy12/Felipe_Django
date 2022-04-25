@@ -3,13 +3,18 @@ from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.models import User
 
 
-from .models import Provedore
+from .models import Musico, Provedore
     
     
 class proveedorform(forms.ModelForm):
     class Meta:
         model = Provedore
         fields = ("nombre_proveedor", "categoria", "direccion", "telefono_proveedor", "email_proveedor",)
+
+class musicoform(forms.ModelForm):
+    class Meta:
+        model = Musico
+        fields = ("nombre_musico", "categoria", "direccion", "telefono_musico", "email_musico",)
 
 
 
