@@ -71,6 +71,11 @@ def registrar(request):
 
     return render(request, 'Miaplicacion/registrarse.html', context)
 
+def proveedores(request):
+
+    proveedores = Provedore.objects.all()
+    
+    return render(request, 'Miaplicacion/proveedores.html',{'proveedores':proveedores})
 
 @login_required
 def ingresado(request):

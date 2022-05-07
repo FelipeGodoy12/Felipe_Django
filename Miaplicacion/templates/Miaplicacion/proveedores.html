@@ -1,0 +1,35 @@
+{% extends 'template_base.html' %}
+
+{% block content %}
+
+<h1>Listado de Proveedores Musicales Registrados</h1>
+<br>
+<div class='contenedortabla'>
+    <table class="table" class='tabla-proveedores'>
+        <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Categoria</th>
+                <th scope="col">Direccion</th>
+                <th scope="col">Telefono</th>
+                <th scope="col">Email</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for proveedor in proveedores %}
+        <tr>
+            <th scope="row">{{proveedor.id}}</th>
+            <td>{{proveedor.nombre_proveedor}}</td>
+            <td>{{proveedor.categoria}}</td>
+            <td>{{proveedor.direccion}}</td>
+            <td>{{proveedor.telefono_proveedor}}</td>
+            <td>{{proveedor.email_proveedor}}</td>
+        </tr>
+        {% endfor %}
+            
+        </tbody>
+    </table>
+</div>
+
+{% endblock %}
