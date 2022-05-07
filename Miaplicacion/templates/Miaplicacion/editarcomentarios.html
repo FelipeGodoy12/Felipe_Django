@@ -1,0 +1,17 @@
+{% extends 'template_base.html' %}
+
+{% block content %}
+
+<form action="" method="post">
+
+
+  <h1>Envianos Comentarios</h1>
+
+  {% csrf_token %}
+  {{form.as_p}}
+
+  <button type="submit">Editar Comentario</button>
+
+</form>
+
+{% endblock content %}

@@ -10,4 +10,8 @@ urlpatterns = [
     path('registrarse',views.registrar, name='registrase'),
     path('ingresado',views.ingresado, name='ingresado'),
     path('formulariomusico',views.formulariomusico, name='formulariomusico'),
+    path('crearcomentario',views.crearcomentario, name='crearcomentario'),
+    path('listarcomentarios',views.listarcomentarios, name='listarcomentarios'),
+    path('editarcomentarios/<int:id>',views.editarcomentarios, name='editarcomentarios'),
+    path('eliminarcomentarios/<int:id>',views.eliminarcomentario, name='eliminarcomentarios'),
 ]

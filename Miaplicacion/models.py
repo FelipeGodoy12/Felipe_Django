@@ -30,3 +30,11 @@ class Musico(models.Model):
 
     def __str__(self):
         return self.nombre_musico
+
+class Comentarios(models.Model):
+    nombre = models.CharField(max_length=45)
+    email = models.EmailField()
+    comentario = models.TextField()
+
+    def __str__(self):
+        return self.nombre

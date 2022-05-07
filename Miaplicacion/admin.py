@@ -5,3 +5,4 @@ from . import models
 admin.site.register(models.Cliente)
 admin.site.register(models.Provedore)
 admin.site.register(models.Musico)
+admin.site.register(models.Comentarios)

@@ -1,0 +1,35 @@
+{% extends 'template_base.html' %}
+
+{% block content %}
+
+<h1>Listado de Comentarios</h1>
+<br>
+<div class='contenedortabla'>
+    <table class="table" class='tabla-proveedores'>
+        <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Email</th>
+                <th scope="col">Comentario</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for com in comentario %}
+        <tr>
+            <th scope="row">{{com.id}}</th>
+            <td>{{com.nombre}}</td>
+            <td>{{com.email}}</td>
+            <td>{{com.comentario}}</td>
+            <td><a class="btn btn-primary" href="editarcomentarios/{{com.id}}" role="button">Editar</a></td>
+            <td><a class="btn btn-primary" href="eliminarcomentarios/{{com.id}}" role="button">Eliminar</a></td>
+        </tr>
+        {% endfor %}
+            
+        </tbody>
+    </table>
+</div>
+
+<a class="btn btn-primary" href="crearcomentario" role="button">Nuevo Comentario</a>
+
+{% endblock %}

@@ -4,8 +4,8 @@ from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.decorators import login_required
 
 
-from .forms import proveedorform, UserRegistrerForm, musicoform
-from .models import Provedore, Musico
+from .forms import proveedorform, UserRegistrerForm, musicoform, ComentarioForm
+from .models import Provedore, Musico, Comentarios
 
 # Create your views here.
 def index(request):
@@ -74,5 +74,40 @@ def registrar(request):
 
 @login_required
 def ingresado(request):
-    messages.success(request, f'El Usuario {username} a sido Registrado Correctamente')
+    messages.success(request, f'El Usuario a sido Registrado Correctamente')
     return render(request, 'Miaplicacion/ingresado.html')
+
+def crearcomentario(request):
+
+    form = ComentarioForm()
+    if request.method == 'POST':
+        form = ComentarioForm(data=request.POST)
+        comentario = form.save(commit=False)
+        comentario.save()
+        return redirect('listarcomentarios')
+
+    else:
+        return render(request, 'Miaplicacion/crearcomentario.html', {'form':form})
+
+def listarcomentarios(request):
+        
+    comentario = Comentarios.objects.all()
+
+    return render(request, 'Miaplicacion/listarcomentarios.html', {'comentario':comentario})
+
+def editarcomentarios(request, id):
+    comentario = Comentarios.objects.get(pk=id)
+
+    form = ComentarioForm(instance=comentario)
+    if request.method == 'POST':
+        form = ComentarioForm(data=request.POST, instance=comentario)
+        form.save()
+        return redirect('listarcomentarios')
+
+    else:
+        return render(request, 'Miaplicacion/editarcomentarios.html', {'form':form})
+
+def eliminarcomentario(request, id):
+    comentario = Comentarios.objects.get(pk=id)
+    comentario.delete()
+    return redirect('listarcomentarios')

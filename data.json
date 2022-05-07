@@ -1,0 +1,843 @@
+[
+    {
+        "model": "admin.logentry",
+        "pk": 1,
+        "fields": {
+            "action_time": "2022-04-25T07:28:21.287Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Sandro",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 2,
+        "fields": {
+            "action_time": "2022-04-25T07:28:41.401Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "2",
+            "object_repr": "Diego",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 3,
+        "fields": {
+            "action_time": "2022-04-25T07:28:57.476Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "3",
+            "object_repr": "Nicolas",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 4,
+        "fields": {
+            "action_time": "2022-04-25T07:29:19.231Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "4",
+            "object_repr": "Juan",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 5,
+        "fields": {
+            "action_time": "2022-04-25T07:29:41.001Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "5",
+            "object_repr": "Kadima",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 6,
+        "fields": {
+            "action_time": "2022-04-25T07:34:41.572Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "3",
+            "object_repr": "Alfonso",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 7,
+        "fields": {
+            "action_time": "2022-04-25T07:34:53.537Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "4",
+            "object_repr": "Carlos",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 8,
+        "fields": {
+            "action_time": "2022-04-25T07:35:03.148Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "5",
+            "object_repr": "Marta",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 9,
+        "fields": {
+            "action_time": "2022-04-25T07:35:11.746Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "6",
+            "object_repr": "Sebastian",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 10,
+        "fields": {
+            "action_time": "2022-04-25T07:35:19.857Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "1",
+            "object_repr": "felipe",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 11,
+        "fields": {
+            "action_time": "2022-05-02T02:26:15.267Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "2",
+            "object_repr": "Planificacion",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 12,
+        "fields": {
+            "action_time": "2022-05-02T02:27:21.228Z",
+            "user": 1,
+            "content_type": 3,
+            "object_id": "1",
+            "object_repr": "Mod cliente",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 13,
+        "fields": {
+            "action_time": "2022-05-02T02:27:51.732Z",
+            "user": 1,
+            "content_type": 3,
+            "object_id": "2",
+            "object_repr": "Mod musico",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 14,
+        "fields": {
+            "action_time": "2022-05-02T02:28:47.918Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "3",
+            "object_repr": "Alfonso",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Staff status\", \"Groups\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 15,
+        "fields": {
+            "action_time": "2022-05-02T02:29:17.897Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "4",
+            "object_repr": "Carlos",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Staff status\", \"Groups\"]}}]"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 1,
+        "fields": {
+            "name": "Can add log entry",
+            "content_type": 1,
+            "codename": "add_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 2,
+        "fields": {
+            "name": "Can change log entry",
+            "content_type": 1,
+            "codename": "change_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 3,
+        "fields": {
+            "name": "Can delete log entry",
+            "content_type": 1,
+            "codename": "delete_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 4,
+        "fields": {
+            "name": "Can view log entry",
+            "content_type": 1,
+            "codename": "view_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 5,
+        "fields": {
+            "name": "Can add permission",
+            "content_type": 2,
+            "codename": "add_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 6,
+        "fields": {
+            "name": "Can change permission",
+            "content_type": 2,
+            "codename": "change_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 7,
+        "fields": {
+            "name": "Can delete permission",
+            "content_type": 2,
+            "codename": "delete_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 8,
+        "fields": {
+            "name": "Can view permission",
+            "content_type": 2,
+            "codename": "view_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 9,
+        "fields": {
+            "name": "Can add group",
+            "content_type": 3,
+            "codename": "add_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 10,
+        "fields": {
+            "name": "Can change group",
+            "content_type": 3,
+            "codename": "change_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 11,
+        "fields": {
+            "name": "Can delete group",
+            "content_type": 3,
+            "codename": "delete_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 12,
+        "fields": {
+            "name": "Can view group",
+            "content_type": 3,
+            "codename": "view_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 13,
+        "fields": {
+            "name": "Can add user",
+            "content_type": 4,
+            "codename": "add_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 14,
+        "fields": {
+            "name": "Can change user",
+            "content_type": 4,
+            "codename": "change_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 15,
+        "fields": {
+            "name": "Can delete user",
+            "content_type": 4,
+            "codename": "delete_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 16,
+        "fields": {
+            "name": "Can view user",
+            "content_type": 4,
+            "codename": "view_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 17,
+        "fields": {
+            "name": "Can add content type",
+            "content_type": 5,
+            "codename": "add_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 18,
+        "fields": {
+            "name": "Can change content type",
+            "content_type": 5,
+            "codename": "change_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 19,
+        "fields": {
+            "name": "Can delete content type",
+            "content_type": 5,
+            "codename": "delete_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 20,
+        "fields": {
+            "name": "Can view content type",
+            "content_type": 5,
+            "codename": "view_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 21,
+        "fields": {
+            "name": "Can add session",
+            "content_type": 6,
+            "codename": "add_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 22,
+        "fields": {
+            "name": "Can change session",
+            "content_type": 6,
+            "codename": "change_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 23,
+        "fields": {
+            "name": "Can delete session",
+            "content_type": 6,
+            "codename": "delete_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 24,
+        "fields": {
+            "name": "Can view session",
+            "content_type": 6,
+            "codename": "view_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 25,
+        "fields": {
+            "name": "Can add cliente",
+            "content_type": 7,
+            "codename": "add_cliente"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 26,
+        "fields": {
+            "name": "Can change cliente",
+            "content_type": 7,
+            "codename": "change_cliente"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 27,
+        "fields": {
+            "name": "Can delete cliente",
+            "content_type": 7,
+            "codename": "delete_cliente"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 28,
+        "fields": {
+            "name": "Can view cliente",
+            "content_type": 7,
+            "codename": "view_cliente"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 29,
+        "fields": {
+            "name": "Can add provedore",
+            "content_type": 8,
+            "codename": "add_provedore"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 30,
+        "fields": {
+            "name": "Can change provedore",
+            "content_type": 8,
+            "codename": "change_provedore"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 31,
+        "fields": {
+            "name": "Can delete provedore",
+            "content_type": 8,
+            "codename": "delete_provedore"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 32,
+        "fields": {
+            "name": "Can view provedore",
+            "content_type": 8,
+            "codename": "view_provedore"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 33,
+        "fields": {
+            "name": "Can add musico",
+            "content_type": 9,
+            "codename": "add_musico"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 34,
+        "fields": {
+            "name": "Can change musico",
+            "content_type": 9,
+            "codename": "change_musico"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 35,
+        "fields": {
+            "name": "Can delete musico",
+            "content_type": 9,
+            "codename": "delete_musico"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 36,
+        "fields": {
+            "name": "Can view musico",
+            "content_type": 9,
+            "codename": "view_musico"
+        }
+    },
+    {
+        "model": "auth.group",
+        "pk": 1,
+        "fields": {
+            "name": "Mod cliente",
+            "permissions": [
+                25,
+                26,
+                27,
+                28
+            ]
+        }
+    },
+    {
+        "model": "auth.group",
+        "pk": 2,
+        "fields": {
+            "name": "Mod musico",
+            "permissions": [
+                33,
+                34,
+                35,
+                36
+            ]
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$320000$8TjDQ4h727iQbIbOhns2yk$ngQfeSeZ/p1gkVwhxhPD4Mz/qXTmle+qhkfLkrwKlKQ=",
+            "last_login": "2022-04-25T07:39:28.737Z",
+            "is_superuser": true,
+            "username": "felipe",
+            "first_name": "Felipe",
+            "last_name": "Godoy",
+            "email": "felipe.godoyn@gmail.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2022-04-25T04:01:26Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$320000$sA76G1bKiy1zbS4MbKvI17$82rOqCwDWbIcg8dTd3X78rVliMY8nyQNHy/OVh3M3uw=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "Planificacion",
+            "first_name": "raul",
+            "last_name": "red",
+            "email": "planificacion@gmail.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2022-04-25T04:59:02Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 3,
+        "fields": {
+            "password": "pbkdf2_sha256$320000$xqRaHicHP41MSuK0QHQrwP$tFdCUkiWVLWS3fhGysO0P7tnvsgsOIA9dN8Z7kad/wU=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "Alfonso",
+            "first_name": "Alfonso",
+            "last_name": "Olvave",
+            "email": "dlfmslkdf@gmail.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2022-04-25T07:06:21Z",
+            "groups": [
+                1
+            ],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 4,
+        "fields": {
+            "password": "pbkdf2_sha256$320000$FvuktYIjEOYLeKBzuFNGMm$HxBpmMX4wIKhBZqnetw7Zr/YN7v93/eNP0fiJmDB+6w=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "Carlos",
+            "first_name": "Carlos",
+            "last_name": "Espinosa",
+            "email": "dfsggs@gmail.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2022-04-25T07:06:56Z",
+            "groups": [
+                2
+            ],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 5,
+        "fields": {
+            "password": "pbkdf2_sha256$320000$KykWBsTv6TA4oj43tsjmeE$sda7XBevCqqeasoArZ9BQiqfKx3+vnKmWpopOc1NHtg=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "Marta",
+            "first_name": "Marta",
+            "last_name": "Sanchez",
+            "email": "maartahhh@gmail.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2022-04-25T07:07:14Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 6,
+        "fields": {
+            "password": "pbkdf2_sha256$320000$bIBEtjTRKmj5xnEbn8qroh$NnUhQCd2c2/nYUwNUF0YfJOVvQRhng13pFj9UN0thxI=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "Sebastian",
+            "first_name": "Sebastian",
+            "last_name": "Lopez",
+            "email": "fgsldmglksd@gmail.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2022-04-25T07:07:49Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 1,
+        "fields": {
+            "app_label": "admin",
+            "model": "logentry"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 2,
+        "fields": {
+            "app_label": "auth",
+            "model": "permission"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 3,
+        "fields": {
+            "app_label": "auth",
+            "model": "group"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 4,
+        "fields": {
+            "app_label": "auth",
+            "model": "user"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 5,
+        "fields": {
+            "app_label": "contenttypes",
+            "model": "contenttype"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 6,
+        "fields": {
+            "app_label": "sessions",
+            "model": "session"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 7,
+        "fields": {
+            "app_label": "Miaplicacion",
+            "model": "cliente"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 8,
+        "fields": {
+            "app_label": "Miaplicacion",
+            "model": "provedore"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 9,
+        "fields": {
+            "app_label": "Miaplicacion",
+            "model": "musico"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "lnuyeztq0jzhik6loqvoyna76cdwifew",
+        "fields": {
+            "session_data": ".eJxVjMsOwiAQRf-FtSHAwAy4dO83EJ5SNTQp7cr479qkC93ec859MR-2tfltlMVPmZ2ZZKffLYb0KH0H-R76beZp7usyRb4r_KCDX-dcnpfD_TtoYbRvXSsYQglIAqwFi1KrGgUiRoMGEwodrEiKIlRbhHYGdHIBiLQiXR17fwCeoTYN:1nisZC:GGKnt80bsrYCQv1dNzKJmN-IJRArcGZCz-0vLlWWXMI",
+            "expire_date": "2022-05-09T06:51:26.611Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "pq0zyh9b7f4pqtdsdu00p95muny8k944",
+        "fields": {
+            "session_data": ".eJxVjMsOwiAQRf-FtSHAwAy4dO83EJ5SNTQp7cr479qkC93ec859MR-2tfltlMVPmZ2ZZKffLYb0KH0H-R76beZp7usyRb4r_KCDX-dcnpfD_TtoYbRvXSsYQglIAqwFi1KrGgUiRoMGEwodrEiKIlRbhHYGdHIBiLQiXR17fwCeoTYN:1nitJg:H6Y2wKeI05yMJBzHFG_NIzm911EwdWRHKMaCFwIlhxI",
+            "expire_date": "2022-05-09T07:39:28.858Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "uhwn5mjnzkjsnzs6spmcpcgg2a4ibw63",
+        "fields": {
+            "session_data": ".eJxVjMsOwiAQRf-FtSHAwAy4dO83EJ5SNTQp7cr479qkC93ec859MR-2tfltlMVPmZ2ZZKffLYb0KH0H-R76beZp7usyRb4r_KCDX-dcnpfD_TtoYbRvXSsYQglIAqwFi1KrGgUiRoMGEwodrEiKIlRbhHYGdHIBiLQiXR17fwCeoTYN:1niskU:mN3FH4QzRdv2h18mqLFbTQBS0HJ90MZLzu_4toV2CNs",
+            "expire_date": "2022-05-09T07:03:06.163Z"
+        }
+    },
+    {
+        "model": "Miaplicacion.provedore",
+        "pk": 1,
+        "fields": {
+            "nombre_proveedor": "Music",
+            "categoria": "Musica",
+            "direccion": "redhot ",
+            "telefono_proveedor": 49850495,
+            "email_proveedor": "musica@gmail.com"
+        }
+    },
+    {
+        "model": "Miaplicacion.provedore",
+        "pk": 2,
+        "fields": {
+            "nombre_proveedor": "Music",
+            "categoria": "Musica",
+            "direccion": "redhot ",
+            "telefono_proveedor": 49850495,
+            "email_proveedor": "musica@gmail.com"
+        }
+    },
+    {
+        "model": "Miaplicacion.provedore",
+        "pk": 3,
+        "fields": {
+            "nombre_proveedor": "Fender",
+            "categoria": "Guitarras",
+            "direccion": "USA",
+            "telefono_proveedor": 634634634,
+            "email_proveedor": "GSDGSD@GMAIL.COM"
+        }
+    },
+    {
+        "model": "Miaplicacion.musico",
+        "pk": 1,
+        "fields": {
+            "nombre_musico": "Sandro",
+            "categoria": "Solista",
+            "direccion": "Providencia",
+            "telefono_musico": 3523523,
+            "email_musico": "fsdfs@gmail.com"
+        }
+    },
+    {
+        "model": "Miaplicacion.musico",
+        "pk": 2,
+        "fields": {
+            "nombre_musico": "Diego",
+            "categoria": "Trio",
+            "direccion": "Vi�a",
+            "telefono_musico": 53523,
+            "email_musico": "gsdsd@gmail.com"
+        }
+    },
+    {
+        "model": "Miaplicacion.musico",
+        "pk": 3,
+        "fields": {
+            "nombre_musico": "Nicolas",
+            "categoria": "Grupo",
+            "direccion": "Valpara�so",
+            "telefono_musico": 423523,
+            "email_musico": "dfsdgs@gmail.com"
+        }
+    },
+    {
+        "model": "Miaplicacion.musico",
+        "pk": 4,
+        "fields": {
+            "nombre_musico": "Juan",
+            "categoria": "Ensamble",
+            "direccion": "Playa ancha",
+            "telefono_musico": 532532,
+            "email_musico": "gsdgsdgs@gmail.com"
+        }
+    },
+    {
+        "model": "Miaplicacion.musico",
+        "pk": 5,
+        "fields": {
+            "nombre_musico": "Kadima",
+            "categoria": "Productor",
+            "direccion": "Quintero",
+            "telefono_musico": 5453434,
+            "email_musico": "gsdghfdhd@gmail.com"
+        }
+    }
+]
