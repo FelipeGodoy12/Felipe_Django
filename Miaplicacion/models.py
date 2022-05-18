@@ -11,13 +11,25 @@ class Cliente(models.Model):
     def __str__(self):
         return f'{self.nombre} {self.apellido}'
 
+class Categoria(models.Model):
+    nombre_categoria = models.CharField(max_length=50)    
+    def __str__(self):
+        return self.nombre
+
+class Direccion(models.Model):
+    numero_direccion = models.CharField(max_length=50)
+    calle_direccion = models.CharField(max_length=50)
+    ciudad_direccion = models.CharField(max_length=50)
+    def __str__(self):
+        return f'{self.numero_direccion} {self.calle_direccion} {self.ciudad_direccion}'
+
 class Provedore(models.Model):
     nombre_proveedor = models.CharField(max_length=60,verbose_name='Ingrese nombre del proveedor')
     categoria = models.CharField(max_length=60,verbose_name='Ingrese categoria del proveedor')
-    direccion = models.CharField(max_length=60,verbose_name='Ingrese la direccion del proveedor')
+    direccion = models.OneToOneField(Direccion, null=True, on_delete=models.SET_NULL)
     telefono_proveedor = models.IntegerField(verbose_name='Ingrese Telefono del proveedor')
     email_proveedor = models.EmailField(verbose_name="Ingrese Correo del Proveedor")
-
+    categoria = models.ForeignKey(Categoria, null=True, on_delete=models.SET_NULL)
     def __str__(self):
         return self.nombre_proveedor
 
