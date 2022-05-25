@@ -1,0 +1,17 @@
+{% extends 'template_base.html' %}
+
+{% block content %}
+
+<form action="" method="post">
+
+
+    <h1>Registro Audio y Video</h1>
+
+    {% csrf_token %}
+    {{form.as_p}}
+
+    <button type="submit">Registrar</button>
+
+</form>
+
+{% endblock content %}

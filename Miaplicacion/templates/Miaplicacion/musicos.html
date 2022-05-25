@@ -1,0 +1,35 @@
+{% extends 'template_base.html' %}
+
+{% block content %}
+
+<h1>Listado de Músicos Registrados</h1>
+<br>
+<div class='contenedortabla'>
+    <table class="table" class='tabla-musicos'>
+        <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Categoria</th>
+                <th scope="col">Direccion</th>
+                <th scope="col">Telefono</th>
+                <th scope="col">Email</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for musico in musicos %}
+        <tr>
+            <th scope="row">{{musico.id}}</th>
+            <td>{{musico.nombre_musico}}</td>
+            <td>{{musico.categoria_musico}}</td>
+            <td>{{musico.direccion_musico}}</td>
+            <td>{{musico.telefono_musico}}</td>
+            <td>{{musico.email_musico}}</td>
+        </tr>
+        {% endfor %}
+            
+        </tbody>
+    </table>
+</div>
+
+{% endblock %}

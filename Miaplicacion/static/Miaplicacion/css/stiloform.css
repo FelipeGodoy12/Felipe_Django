@@ -63,6 +63,13 @@ footer{
 
 }
 
+.btn-group-responsive {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
 /* @media screen and (max-width: 400px) {
   body {
     font-size: 0.8em;

@@ -1,0 +1,35 @@
+{% extends 'template_base.html' %}
+
+{% block content %}
+
+<h1>Listado de Proveedores Musicales Registrados</h1>
+<br>
+<div class='contenedortabla'>
+    <table class="table" class='tabla-audioyvideos'>
+        <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Categoria</th>
+                <th scope="col">Direccion</th>
+                <th scope="col">Telefono</th>
+                <th scope="col">Email</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for audioyvideo in audioyvideos %}
+        <tr>
+            <th scope="row">{{audioyvideo.id}}</th>
+            <td>{{audioyvideo.nombre_audioyvideo}}</td>
+            <td>{{audioyvideo.categoria_audioyvideo}}</td>
+            <td>{{audioyvideo.direccion_audioyvideo}}</td>
+            <td>{{audioyvideo.telefono_audioyvideo}}</td>
+            <td>{{audioyvideo.email_audioyvideo}}</td>
+        </tr>
+        {% endfor %}
+            
+        </tbody>
+    </table>
+</div>
+
+{% endblock %}
